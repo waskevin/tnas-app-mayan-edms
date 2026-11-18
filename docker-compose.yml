@@ -1,0 +1,6 @@
+services:
+  mayan-edms:
+    image: mayanedms/mayanedms:s4
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Shanghai
